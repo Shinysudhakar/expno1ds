@@ -1,6 +1,4 @@
-# exp no 1 ds
-
-Ex:-01(DATA CLEANSING)
+# Ex:-01(DATA CLEANSING)
 
 ## AIM
 To read the given data and perform data cleaning and save the cleaned data to a file. 
@@ -19,7 +17,7 @@ STEP 3: Remove the null values from the data
 STEP 4: Save the Clean data to the file
 
 ## PROGRAM
-python3
+```python3
 import pandas as pd 
 df=pd.read_csv("Data_set.csv") 
 print(df) 
@@ -63,5 +61,33 @@ df['Credit_History']=df['Credit_History'].fillna (df['Credit_History'].median())
 df.head()
 df.info()
 f.isnull().sum()
-
+```
 ## OUTPUT
+
+![1](https://github.com/Shinysudhakar/expno1ds/assets/127575325/a5073e8d-648c-473b-994e-d08685c2b62d)![2](https://github.com/Shinysudhakar/expno1ds/assets/127575325/228e4236-71b6-4c92-b649-cae0ee657f2b)
+![3](https://github.com/Shinysudhakar/expno1ds/assets/127575325/24211940-6a37-4861-a27a-4e1477dc501c)
+
+![4](https://github.com/Shinysudhakar/expno1ds/assets/127575325/9cd408f8-a987-41ef-9c5e-94a3b85f0fbb)
+![5](https://github.com/Shinysudhakar/expno1ds/assets/127575325/6c4e600b-b19b-4aa8-859e-e0cd8cd2a9f6)
+
+![6](https://github.com/Shinysudhakar/expno1ds/assets/127575325/e0f334c2-5a73-4957-9596-e0df3d2dfaea)
+
+![7](https://github.com/Shinysudhakar/expno1ds/assets/127575325/109c092b-4ac5-43e8-9fbd-88d2d6fedb43)
+![8](https://github.com/Shinysudhakar/expno1ds/assets/127575325/019ca09b-985f-4d87-ae66-3144abeee6f2)
+
+![9](https://github.com/Shinysudhakar/expno1ds/assets/127575325/77fd580c-baca-4ef2-8d5f-286b6aaa922a)
+
+![10](https://github.com/Shinysudhakar/expno1ds/assets/127575325/7b62edb0-2c46-4c4a-ad4f-c21b14b74c0e)
+
+
+![11](https://github.com/Shinysudhakar/expno1ds/assets/127575325/4a5025da-c7b8-4549-95ba-2e8570ff4dfd)
+
+
+![12](https://github.com/Shinysudhakar/expno1ds/assets/127575325/6c9f7a24-df80-4a8a-b0c7-ecdfc52e3750)
+
+
+
+
+
+
+
